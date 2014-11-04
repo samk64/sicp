@@ -1,8 +1,18 @@
 ; cheat sheet
 
-
+; rounding numbers
 (exact->inexact (/ 4 7))
 ;Value: .5714285714285714
+
+; get current path
+(pwd)
+;Value 14: #[pathname 14 "/home/samuelkim/workarea/sicp/"]
+
+; load a file
+(load "1/1.01.scm")
+
+; nil value
+'()
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Chapter 1
